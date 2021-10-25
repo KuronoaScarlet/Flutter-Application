@@ -44,7 +44,7 @@ class BlueHalf extends StatelessWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    double hPadding = 10;
+    double hPadding = 14;
     double vPadding = 30;
     return Expanded(
       flex: 7,
@@ -68,7 +68,7 @@ class BlueHalf extends StatelessWidget {
                     Text(
                       "Good Evening",
                       style: TextStyle(
-                        fontSize: 42,
+                        fontSize: 40,
                         color: Colors.white,
                         fontWeight: FontWeight.w600,
                       ),
@@ -76,7 +76,7 @@ class BlueHalf extends StatelessWidget {
                     Text(
                       "Jonathan Holmes",
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 26,
                         color: Colors.white,
                       ),
                     ),
@@ -84,12 +84,12 @@ class BlueHalf extends StatelessWidget {
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 40),
-                  width: 90,
-                  height: 90,
+                  padding: const EdgeInsets.all(3),
                   decoration: const BoxDecoration(
                     color: Colors.white,
                     shape: BoxShape.circle,
                   ),
+                  child: const Icon(Icons.person, size: 90),
                 )
               ],
             ),
@@ -148,7 +148,7 @@ class WhiteHalf extends StatelessWidget {
     return Expanded(
       flex: 10,
       child: Container(
-        padding: const EdgeInsets.fromLTRB(8, 15, 5, 40),
+        padding: const EdgeInsets.fromLTRB(14, 15, 14, 40),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -318,10 +318,10 @@ class InfoMidBox extends StatelessWidget {
     return Expanded(
       child: Container(
         padding: const EdgeInsets.symmetric(
-          horizontal: 15,
+          horizontal: 10,
           vertical: 15,
         ),
-        margin: const EdgeInsets.symmetric(horizontal: 5),
+        margin: const EdgeInsets.symmetric(horizontal: 6),
         width: 120,
         decoration: BoxDecoration(
           color: boxColor,
