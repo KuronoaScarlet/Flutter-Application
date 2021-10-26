@@ -27,7 +27,7 @@ class BlueHalf extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
                     SizedBox(
-                      height: 40,
+                      height: 32,
                     ),
                     Text(
                       "Good Evening",
@@ -91,10 +91,10 @@ class BlueHalf extends StatelessWidget {
           ],
         ),
         decoration: BoxDecoration(
-          color: Colors.blue[500],
+          color: Colors.blueAccent.shade200,
           borderRadius: const BorderRadius.only(
-            bottomLeft: Radius.circular(15),
-            bottomRight: Radius.circular(15),
+            bottomLeft: Radius.circular(20),
+            bottomRight: Radius.circular(20),
           ),
         ),
       ),

@@ -39,7 +39,7 @@ class WhiteHalf extends StatelessWidget {
                   tempValue: "24 ºC",
                   humValue: "18%",
                   enerValue: "56 kWh",
-                  boxColor: Colors.blue[500],
+                  boxColor: Colors.blueAccent.shade200,
                   topTextColor: Colors.white,
                   topIconColor: Colors.white,
                   botTextColor: Colors.white,

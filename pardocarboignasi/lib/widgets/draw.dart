@@ -25,6 +25,7 @@ class Draw extends StatelessWidget {
             value,
             style: TextStyle(
               color: color,
+              fontSize: 12,
             ),
           ),
         ],

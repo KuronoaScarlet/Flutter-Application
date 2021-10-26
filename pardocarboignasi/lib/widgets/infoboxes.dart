@@ -18,7 +18,7 @@ class InfoTopBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        padding: const EdgeInsets.all(8),
+        padding: const EdgeInsets.all(12),
         margin: const EdgeInsets.symmetric(horizontal: 5),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -39,7 +39,7 @@ class InfoTopBox extends StatelessWidget {
               number,
               style: const TextStyle(
                 color: Colors.black,
-                fontSize: 22,
+                fontSize: 19,
                 fontWeight: FontWeight.w600,
               ),
             ),
